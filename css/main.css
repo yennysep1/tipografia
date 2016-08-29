@@ -1,7 +1,6 @@
 .contenedor {
 	width: 1150px;
 	margin: auto;
-	background-color: red;
 } 
 
 .contenedor:after {
