@@ -1,8 +1,13 @@
 .contenedor {
-	width: 1200px;
+	width: 1150px;
 	margin: auto;
-	padding-top:20px;
 } 
+
+.contenedor:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
 .box {
 	padding-top: 20px;
@@ -10,7 +15,7 @@
 	height: 240px;
 	background-color: #F0EBEB;
 	float: left;
-	margin: 4px;
+	margin: 5px;
 	text-align: center;
 -webkit-box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.62);
 -moz-box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.62);
