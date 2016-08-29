@@ -1,0 +1,75 @@
+.contenedor {
+	width: 1200px;
+	margin: auto;
+	padding-top:20px;
+} 
+
+.box {
+	padding-top: 20px;
+	width: 220px;
+	height: 240px;
+	background-color: #F0EBEB;
+	float: left;
+	margin: 4px;
+	text-align: center;
+-webkit-box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.62);
+-moz-box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.62);
+box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.62);
+-webkit-transition: all .0.5s ease-in-out; 
+
+}
+
+.box:hover{
+	padding-top: 20px;
+	color: #A59C9C;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color:#8C8F98;
+	-webkit-transition: all .0.5s ease-in-out; 
+}
+
+.box:hover span{
+	font-size: 65px;
+}
+
+h3{
+	font-family: 'Lobster', cursive;
+}
+
+.box:hover h3{
+	font-size:20px;
+}
+
+h5 {
+	font-family:'Raleway', sans-serif;
+	font-style: italic;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	padding: 0 20px;
+}
+
+.icon-printer {
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.icon-box {
+	font-size: 50px;
+	margin-top: 20px;
+}
+.icon-tags {
+	font-size: 50px;
+	margin-top: 20px;
+}
+.icon-basketball {
+	font-size: 50px;
+	margin-top: 20px;
+}
+.icon-umbrella {
+	font-size: 50px;
+	margin-top: 20px;
+
+}
+
